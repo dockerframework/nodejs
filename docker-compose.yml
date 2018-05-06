@@ -14,5 +14,6 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
     environment:
-      - NODEJS_VERSION=9.11.1
+      - NODEJS_VERSION=10.0.0
       - YARN_VERSION=1.6.0
+      
