@@ -25,6 +25,6 @@ MAINTAINER "Laradock Team <mahmoud@zalt.me>"
 ENV NODE_VERSION 8.11.1 \
     YARN_VERSION 1.6.0
 
-EXPOSE 22
+EXPOSE 22 3000
 
 CMD [ "node" ]

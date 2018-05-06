@@ -10,7 +10,8 @@ services:
     build:
       context: .
     ports:
-      - "${NODEJS_PORT}:22"
+      - "${NODEJS_SSH_PORT}:22"
+      - "${NODEJS_APP_PORT}:3000"
     volumes:
       - /etc/localtime:/etc/localtime:ro
     environment:
