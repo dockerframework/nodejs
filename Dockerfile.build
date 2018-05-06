@@ -21,7 +21,7 @@ FROM alpine:3.6
 
 MAINTAINER "Laradock Team <mahmoud@zalt.me>"
 
-ENV NODE_VERSION 8.11.1 \
+ENV NODE_VERSION 9.11.1 \
     YARN_VERSION 1.6.0
 
 RUN addgroup -g 1000 node \

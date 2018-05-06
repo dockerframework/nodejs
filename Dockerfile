@@ -1,4 +1,4 @@
-ARG NODE_VERSION=8.11.1
+ARG NODE_VERSION=9.11.1
 FROM node:${NODE_VERSION}-alpine
 
 # ================================================================================================
@@ -22,7 +22,7 @@ FROM node:${NODE_VERSION}-alpine
 
 MAINTAINER "Laradock Team <mahmoud@zalt.me>"
 
-ENV NODE_VERSION 8.11.1 \
+ENV NODE_VERSION 9.11.1 \
     YARN_VERSION 1.6.0
 
 EXPOSE 22
